@@ -7,9 +7,9 @@
     --light-white:#fff9;
     --dark-bg:rgba(0,0,0,0.7);
     --light-bg:#eee;
-    --border:1rem solid var(--black);
-    --box-shadow:0 .5rem 1rem rgba(0,0,0,0.1);
-    --text-shadow:0 .5rem 3rem rgba(0,0,0,0.3);
+    /*--border:1rem solid var(--black);*/
+    /*--box-shadow:0 .5rem 1rem rgba(0,0,0,0.1);*/
+    /*--text-shadow:0 .5rem 3rem rgba(0,0,0,0.3);*/
 
 }
 *{
@@ -69,7 +69,7 @@ section{
     color:var(--black);
 }
 .header .navbar a:hover{
-    color:var(--main-color);
+    color:#BF9270;
 }
 .services .box-container{
     display: grid;
@@ -138,7 +138,7 @@ section{
     transition: .2s linear;
 }
 .footer .box-container .box a:hover i{
-    color: hotpink;
+    color: #BF9270;
     padding-right: 2rem;
 }
 
@@ -172,7 +172,7 @@ section{
 }
 .circles{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 .circles .resume{
@@ -185,13 +185,15 @@ section{
 
 }
 
+
 .circles .resume a{
     position: absolute;
     width: inherit;
     height: auto;
-    top: 49%;
+    top: 57%;
     transform: translateY(-50%);
     text-align: center;
+    font-weight: bold;
     color: black;
 }
 
@@ -207,7 +209,7 @@ section{
     position: absolute;
     width: inherit;
     height: auto;
-    top: 49%;
+    top: 57%;
     transform: translateY(-50%);
     text-align: center;
     font-weight: bold;
@@ -225,7 +227,7 @@ section{
     position: absolute;
     width: inherit;
     height: auto;
-    top: 49%;
+    top: 57%;
     transform: translateY(-50%);
     text-align: center;
     color: black;
@@ -233,16 +235,7 @@ section{
 }
 
 
-.circles .resume a{
-    position: absolute;
-    width: inherit;
-    height: auto;
-    top: 49%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: white;
-    font-weight: bold;
-}
+
 .circles .resume:hover{
     background-color: white;
 
@@ -253,6 +246,20 @@ section{
 }
 .circles .contact:hover{
     background-color: white;
+}
+.resumemain{
+    background-color: #FFEDDB;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.resumemain h4{
+    font-size: 30px;
+
+}
+.resumemain h2{
+    font-size: 50px;
+
 }
 
 @media(max-width:1200px){

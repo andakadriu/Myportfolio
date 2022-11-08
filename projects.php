@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Reserve</title>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -12,73 +12,22 @@
 </head>
 <body>
 <section class="header">
-    <a href="home.php" class="logo">ANDA</a>
+    <a href="home.php" class="logo">anda.</a>
 
     <nav class="navbar">
         <a href="resume.php">Resume</a>
         <a href="projects.php">Projects</a>
         <a href="contact.php">Contact</a>
-        <a href="home.php"></a>
     </nav>
 
     <div id="menu-btn" class="fas fa-bars">
 
     </div>
 </section>
-<!--<section class="services">-->
-<!--    <h1 class="heading-tittle">MY WORK </h1>-->
-<!--    <div class="box-container">-->
-<!--        <div class="box">-->
-<!--            <img src="images/img1.png" alt="">-->
-<!--            <h3>Keychain</h3>-->
-<!--        </div>-->
-<!--        <div class="box">-->
-<!--            <img src="images/img2.png" alt="">-->
-<!--            <h3>Jewerly Bowl</h3>-->
-<!--        </div>-->
-<!--        <div class="box">-->
-<!--            <img src="images/img1.png" alt="">-->
-<!--            <h3>Letter A Heart keychain</h3>-->
-<!--        </div>-->
-<!--        <div class="box">-->
-<!--            <img src="images/img4.png" alt="">-->
-<!--            <h3>Jewerly Plate</h3>-->
-<!--        </div>-->
-<!--        <div class="box">-->
-<!--            <img src="images/img5.png" alt="">-->
-<!--            <h3>Bowl ocean art</h3>-->
-<!--        </div>-->
-<!---->
-<!---->
-<!--    </div>-->
-<!--</section>-->
 
-<div class="main">
-    <div class="andamain"> <img src="images/andamain.jpg"  alt="">
-    </div>
-    <div class="hello">
-        <h1 style="font-size: 100px;">Hello</h1><br><br>
-        <h3>A Bit About Me</h3> <br>
-        <p>I am Anda Kadriu, a third year student at UBT <br>Department of Computer Science and
-            Engineering  specializing in Software Engineering</p><br>
-        <div class="circles">
-            <div class="resume">
-                <a href="resume.php" style="color:black">Resume</a>
-            </div>
-
-            <div class="projects">
-                <a href="projects.php">Projects</a>
-            </div>
-            <div class="contact">
-                <a href="contact.php">Contact</a>
-            </div>
-        </div>
-
-
-    </div>
-
+<div class="heading" style="background:url(images/heading1.png) no-repeat">
+    <h1>My resume here</h1>
 </div>
-
 <section class="footer">
     <div class="box-container">
         <div class="box">
