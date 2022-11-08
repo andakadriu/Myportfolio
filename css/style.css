@@ -156,7 +156,7 @@ section{
 .main{
 
     display: flex;
-    justify-content: center;
+
     align-items: center;
     justify-content:space-evenly;
 
@@ -306,5 +306,5 @@ section{
     html{
         font-size: 50%;
     }
-    .heading-tittle:3.5rem;
+
 }
