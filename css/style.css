@@ -180,7 +180,7 @@ section{
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border:1px solid black;
+
     color: black;
 
 }
@@ -202,7 +202,7 @@ section{
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border:1px solid black;
+
 }
 
 .circles .projects a{
@@ -220,7 +220,7 @@ section{
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border:1px solid black;
+
 }
 
 .circles .contact a{
@@ -247,20 +247,139 @@ section{
 .circles .contact:hover{
     background-color: white;
 }
-.resumemain{
-    background-color: #FFEDDB;
+
+/*resume page css*/
+
+.clearfix{
+    clear: both;
+}
+.mainResume{
+    margin:0px;
+    padding: 0px;
+    height: 50vh;
+    height: 300px;
+    width: 800px;
+    background-color: white;
+    box-shadow: 5px 7px 15px 5px #b9b6b6;
+    margin: 20px auto;
+
+
+}
+.mainResume .head{
+    color:#BF9270;
+}
+.mainResume h4 {
+    color: #BF9270;
+}
+
+.top-section{
+    background-color:#151b29;
+    text-align: center;
+    padding: 20px;
+}
+.profile{
+    width: 150px;
+    border-radius: 50%;
+}
+.col-div-4{
+    width: 45%;
+    float: left;
+
+}
+.col-div-8{
+    width: 50%;
+    float: left;
+}
+.line{
+    border-left: 1px solid #c7c7c7;
+    height: 220px;
+    width: 2%;
+    margin-top: 30px;
+    float:left;
+}
+.content-box{
+    padding: 20px;
+}
+.head{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.p3{
+    color: #7b7b7b;
+    margin-bottom: -5px;
+
+}
+
+
+
+
+/*resume page css*/
+
+
+
+.contactme .contact-form{
+    padding: 2rem;
+    background: #E3B7A0;
+}
+.contactme .contact-form .flex{
     display: flex;
-    justify-content: space-between;
-    padding: 100px;
-}
-.resumemain h4{
-    font-size: 30px;
+    flex-wrap: wrap;
+    gap:2rem;
 
 }
-.resumemain h2{
-    font-size: 50px;
-
+.contactme .contact-form .flex .inputBox{
+    flex:1 1 41rem;
 }
+
+.contactme .contact-form .flex .inputBox span{
+font-size: 2rem;
+color: #FFEDDB;
+}
+
+
+.contactme .contact-form .flex .inputBox input {
+    width:100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: #BF9270;
+    text-transform: none;
+    margin-top:1.5rem;
+    border: var(--border);
+}
+
+.contactme .contact-form .flex .inputBox textarea {
+    width:100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: #BF9270;
+    text-transform: none;
+    margin-top:1.5rem;
+    border: var(--border);
+}
+.contactme .contact-form .flex .inputBox input:focus {
+    background: #BF9270;
+    color: #FFEDDB;
+
+}.contactme .contact-form .flex .inputBox input:focus::placeholder {
+    background:#FFEDDB ;
+ }
+
+.contactme .contact-form .flex .inputBox textarea:focus {
+    background: #BF9270;
+    color: #FFEDDB;
+
+}.contactme .contact-form .flex .inputBox textarea:focus::placeholder {
+     background:#FFEDDB ;
+ }
+.contactme .contact-form .btn{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background: #BF9270;
+    color: white;
+    font-size: 2rem;
+}
+
 
 @media(max-width:1200px){
     section{
