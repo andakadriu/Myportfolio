@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
     <meta charset="UTF-8">
-    <title>Reserve</title>
+    <title>Projects</title>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<section class="header">
-    <a href="home.php" class="logo">anda.</a>
+<section class="header" style="background: white !important;">
+    <a href="home.php" class="logo">ANDA</a>
 
     <nav class="navbar">
         <a href="resume.php">Resume</a>
@@ -24,10 +24,52 @@
 
     </div>
 </section>
+<section class="mainProjectall" style="background: #FFEDDB">
+<div class="mainproject">
+    <div class="projectname">
+            <h2>GNTC FONDI HUMANITAR</h2>
+            <p>Ky projekt eshte punuar ne kompanine Gorenje Department <br>
+            store me qellime humanitare. Ku te gjitha te dhenat te <br> personave te cilet
+            ndihmojne jane publike. Ky website eshte punuar me Wordpress </p>
+            <button>Click for more</button>
 
-<div class="heading" style="background:url(images/heading1.png) no-repeat">
-    <h1>My resume here</h1>
+
+    </div>
+    <div class="projectimg">
+        <img src="images/gntcfondi.png" alt="">
+
+    </div>
 </div>
+
+<div class="mainproject">
+    <div class="projectname">
+        <h2>GNTC FONDI HUMANITAR</h2>
+        <p>ky projekt eshte bere ....</p>
+
+
+    </div>
+    <div class="projectimg">
+        <img src="images/gntcfondi.png" alt="">
+
+    </div>
+</div>
+
+
+<div class="mainproject">
+    <div class="projectname">
+        <h2>GNTC FONDI HUMANITAR</h2>
+        <p>ky projekt eshte bere ....</p>
+
+
+    </div>
+    <div class="projectimg">
+        <img src="images/gntcfondi.png" alt="">
+
+    </div>
+</div></section>
+
+
+
 <section class="footer">
     <div class="box-container">
         <div class="box">

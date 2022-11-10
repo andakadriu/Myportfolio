@@ -1,29 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width" initial-scale="1.0">
-    <meta charset="UTF-8">
-    <title>Home</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <meta charset="UTF-8">
+        <title>Home</title>
 
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<section class="header">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body >
+<main>
+
+<section class="header" >
     <a href="home.php" class="logo">ANDA</a>
+    <div class="bottom-area">
+        <div class="container">
+            <button class="toggle-btn">
+                <i class="far fa-moon"></i>
+                <i class="far fa-sun"></i>
+            </button>
+        </div>
+    </div>
 
     <nav class="navbar">
         <a href="resume.php">Resume</a>
         <a href="projects.php">Projects</a>
         <a href="contact.php">Contact</a>
         <a href="home.php"></a>
+        <img src="images/moon.png" id="icon" alt="">
+
     </nav>
 
     <div id="menu-btn" class="fas fa-bars">
 
-    </div>
+    </div></main>
 </section>
 <!--<section class="services">-->
 <!--    <h1 class="heading-tittle">MY WORK </h1>-->
@@ -57,7 +69,7 @@
     <div class="andamain"> <img src="images/andamain.jpg"  alt="">
     </div>
     <div class="hello">
-        <h1 style="font-size: 100px;">Hello</h1><br><br>
+        <h1 style="font-size: 100px;" >Hello</h1><br><br>
         <h3>A Bit About Me</h3> <br>
         <p>I am Anda Kadriu, a third year student at UBT <br>Department of Computer Science and
             Engineering  specializing in Software Engineering</p><br>
