@@ -17,10 +17,7 @@
     <a href="home.php" class="logo">ANDA</a>
     <div class="bottom-area">
         <div class="container">
-            <button class="toggle-btn">
-                <i class="far fa-moon"></i>
-                <i class="far fa-sun"></i>
-            </button>
+
         </div>
     </div>
 
@@ -37,33 +34,7 @@
 
     </div></main>
 </section>
-<!--<section class="services">-->
-<!--    <h1 class="heading-tittle">MY WORK </h1>-->
-<!--    <div class="box-container">-->
-<!--        <div class="box">-->
-<!--            <img src="images/img1.png" alt="">-->
-<!--            <h3>Keychain</h3>-->
-<!--        </div>-->
-<!--        <div class="box">-->
-<!--            <img src="images/img2.png" alt="">-->
-<!--            <h3>Jewerly Bowl</h3>-->
-<!--        </div>-->
-<!--        <div class="box">-->
-<!--            <img src="images/img1.png" alt="">-->
-<!--            <h3>Letter A Heart keychain</h3>-->
-<!--        </div>-->
-<!--        <div class="box">-->
-<!--            <img src="images/img4.png" alt="">-->
-<!--            <h3>Jewerly Plate</h3>-->
-<!--        </div>-->
-<!--        <div class="box">-->
-<!--            <img src="images/img5.png" alt="">-->
-<!--            <h3>Bowl ocean art</h3>-->
-<!--        </div>-->
-<!---->
-<!---->
-<!--    </div>-->
-<!--</section>-->
+
 
 <div class="main">
     <div class="andamain"> <img src="images/andamain.jpg"  alt="">
@@ -94,23 +65,23 @@
 <section class="footer">
     <div class="box-container">
         <div class="box">
-            <h3>quick links</h3>
-            <a href="home.php"><i class="fas fa-angle-right"></i> Home</a>
-            <a href="about.php"><i class="fas fa-angle-right"></i> About</a>
-            <a href="reserve.php"><i class="fas fa-angle-right"></i> Reserve</a>
-            <a href="home.php"><i class="fas fa-angle-right"></i> </a>
+            <h3>Quick links</h3>
+            <a href="resume.php"><i class="fas fa-angle-right"></i> Resume</a>
+            <a href="projects.php"><i class="fas fa-angle-right"></i> Projects</a>
+            <a href="contact.php"><i class="fas fa-angle-right"></i> Contact</a>
+
         </div>
 
         <div class="box">
-            <h3>extra links</h3>
-            <a href="#"><i class="fas fa-angle-right"></i> ask questions</a>
+            <h3>Extra links</h3>
+            <a href="#"><i class="fas fa-angle-right"></i> Ask questions</a>
             <a href="#"><i class="fas fa-angle-right"></i> About us</a>
             <a href="#"><i class="fas fa-angle-right"></i> Privacy policy</a>
-            <a href="#"><i class="fas fa-angle-right"></i> terms of use</a>
+            <a href="#"><i class="fas fa-angle-right"></i> Terms of use</a>
         </div>
 
         <div class="box">
-            <h3>contact info </h3>
+            <h3>Contact info </h3>
             <a href="#"><i class="fas fa-phone"></i> +38349649828</a>
             <a href="#"><i class="fas fa-envelope"></i> andakadriu20@gmail.com</a>
             <a href="#"><i class="fas fa-map"></i> Fushe Kosove,Kosove</a>

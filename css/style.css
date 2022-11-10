@@ -161,6 +161,7 @@ section{
     display: flex;
     justify-content: space-around;
 
+
 }
 .circles .resume{
     background-color: #E3B7A0;
@@ -168,7 +169,6 @@ section{
     width: 150px;
     border-radius: 50%;
 
-    color: var(--secondary-color);
 
 }
 
@@ -181,11 +181,12 @@ section{
     transform: translateY(-50%);
     text-align: center;
     font-weight: bold;
-    color:var(--secondary-color) ;
+    color: var(--secondary-color);
 }
 
+
 .circles .projects{
-    background-color: #e3b7a0;
+    background-color: #604b3c;
     height: 150px;
     width: 150px;
     border-radius: 50%;
