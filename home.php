@@ -25,7 +25,7 @@
         <a href="resume.php">Resume</a>
         <a href="projects.php">Projects</a>
         <a href="contact.php">Contact</a>
-        <a href="home.php"></a>
+
         <img src="images/moon.png" id="icon" alt="">
 
     </nav>

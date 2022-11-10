@@ -298,6 +298,9 @@ section{
     margin-bottom: -5px;
 
 }
+.content-box p {
+    color: var(--secondary-color);
+}
 
 
 
@@ -550,12 +553,18 @@ color: #FFEDDB;
 }
 nav{flex: 1;
 text-align: right;}
+.all{
+    background: var(--primary-resume-background) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 :root {
     --primary-color : #fff;
     --secondary-color:#212121;
     --primary-background: url("../images/footerb.png");
     --primary-hello-color:black;
+    --primary-resume-background:url("../images/resumeback.png")
 
 
 }
@@ -564,7 +573,9 @@ text-align: right;}
     --secondary-color:#fff;
         --primary-background: url("../images/footerbdark.png");
         --primary-hello-color:#9b785e;
-}
+        --primary-resume-background:url("../images/resumebackdark.png")
+
+    }
 .main{
     background-color: var(--primary-color);
 }
