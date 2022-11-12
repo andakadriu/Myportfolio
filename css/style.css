@@ -238,10 +238,9 @@ section{
 
 /*resume page css*/
 
-.clearfix{
-    clear: both;
-}
+
 .mainResume{
+
     margin:0;
     padding: 0;
     height: 50vh;
@@ -464,6 +463,12 @@ flex-direction: column;
         margin-left: 35px;
 
     }
+.content-box{
+
+    position: absolute;
+
+
+}
 
 
 
