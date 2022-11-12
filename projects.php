@@ -43,13 +43,13 @@
 
 <div class="mainproject">
     <div class="projectname">
-        <h2>GNTC FONDI HUMANITAR</h2>
-        <p>ky projekt eshte bere ....</p>
+        <h2>COOKIE'S SHOP</h2>
+        <p>Ky projekt eshte bere ne lenden lab2 i cili eshte bere me arkitekturen: Microservices</p>
 
 
     </div>
     <div class="projectimg">
-        <img src="images/gntcfondi.png" alt="">
+        <img src="images/cookieshop.png" alt="">
 
     </div>
 </div>
@@ -57,13 +57,13 @@
 
 <div class="mainproject">
     <div class="projectname">
-        <h2>GNTC FONDI HUMANITAR</h2>
-        <p>ky projekt eshte bere ....</p>
+        <h2>FITNESS APP</h2>
+        <p>Ky projekt eshte bere per lenden Inxhinieri e Webit MVC dhe ReactJS,............../......</p>
 
 
     </div>
     <div class="projectimg">
-        <img src="images/gntcfondi.png" alt="">
+        <img src="images/fitnesapp.png" alt="">
 
     </div>
 </div></section>
