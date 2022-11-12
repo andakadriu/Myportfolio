@@ -3,7 +3,7 @@
 $connection = mysqli_connect('localhost','root','','contact_db');
 
 if(isset($_POST['send'])){
-    $name = $_POST['name'];
+    $firstname = $_POST['firstname'];
     $surname = $_POST['surname'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
@@ -11,7 +11,7 @@ if(isset($_POST['send'])){
     $descrproject = $_POST['descrproject'];
 
 
-    $request = " insert into contact_form(name, surname, email, phone, projecttitle, descrproject,) values('$name','$surname','$email','$phone','$projecttitle','$descrproject') ";
+    $request = "INSERT INTO contact_form (firstname,surname,email,phone,projecttitle,descrproject) values ('$firstname','$surname','$email','$phone','$projecttitle','$descrproject') ";
     mysqli_query($connection, $request);
 
     header('location:contact.php');
