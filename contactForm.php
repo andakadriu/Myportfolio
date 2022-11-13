@@ -1,6 +1,6 @@
 <?php
 namespace starlabsProject;
-use database;
+use starlabsProject\database;
 include_once ('database.php');
 use PDO;
 use PDOException;
@@ -77,4 +77,3 @@ class ContactForm extends Database{
 
 }
 ?>
-

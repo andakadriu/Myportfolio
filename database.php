@@ -1,5 +1,5 @@
 <?php
-
+namespace starlabsProject;
 use PDO,PDOException;
 
 require_once(realpath($_SERVER['DOCUMENT_ROOT']).'\starlabsProject\config.php');

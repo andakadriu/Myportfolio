@@ -19,21 +19,21 @@
 </head>
 <body>
 <?php
-//
-//use contactForm;
-//include('contactForm.php');
-//$c=new contactForm();
-//
-//if(isset($_POST['send'])){
-//    $c->setFirstName($_POST['firstname']);
-//    $c->setSurname($_POST['surname']);
-//    $c->setEmail($_POST['email']);
-//    $c->setPhone($_POST['phone']);
-//    $c->setProjectTitle($_POST['projecttitle']);
-//    $c->setDescription($_POST['descproject']);
-//    $c->store();
-//}
-//?>
+
+use starlabsProject\ContactForm;
+include('contactForm.php');
+$c=new ContactForm();
+
+if(isset($_POST['send'])){
+    $c->setFirstName($_POST['firstname']);
+    $c->setSurname($_POST['surname']);
+    $c->setEmail($_POST['email']);
+    $c->setPhone($_POST['phone']);
+    $c->setProjectTitle($_POST['projecttitle']);
+    $c->setDescription($_POST['descproject']);
+    $c->store();
+}
+?>
 
 
 
@@ -60,45 +60,45 @@
 
 
 <div class="allcontact">
-<section class="contactme">
+    <section class="contactme">
 
-    <h1 class="heading-title"></h1>
+        <h1 class="heading-title"></h1>
 
-    <form method="post" class="contact-form">
+        <form method="post" class="contact-form">
 
-        <div class="flex">
-            <div class="inputBox">
-                <span>firstname :</span>
-                <input type="text" placeholder="enter your name" name="firstname">
+            <div class="flex">
+                <div class="inputBox">
+                    <span>Firstname :</span>
+                    <input type="text" placeholder="enter your firstnam" name="firstname">
+                </div>
+                <div class="inputBox">
+                    <span>Lastname :</span>
+                    <input type="text" placeholder="enter your lastname" name="surname">
+                </div>
+                <div class="inputBox">
+                    <span>Email :</span>
+                    <input type="email" placeholder="enter your email" name="email">
+                </div>
+                <div class="inputBox">
+                    <span>Phone :</span>
+                    <input type="number" placeholder="enter your phone number" name="phone">
+                </div>
+                <div class="inputBox">
+                    <span>Project title :</span>
+                    <input type="text" placeholder="enter your project title" name="projecttitle">
+                </div>
+                <div class="inputBox">
+                    <span>Project Description</span>
+                    <input type="text" placeholder="descripe your project" name="descproject">
+                </div>
+
             </div>
-            <div class="inputBox">
-                <span>Surname :</span>
-                <input type="text" placeholder="enter your surname" name="surname">
-            </div>
-            <div class="inputBox">
-                <span>Email :</span>
-                <input type="email" placeholder="enter your email" name="email">
-            </div>
-            <div class="inputBox">
-                <span>Phone :</span>
-                <input type="number" placeholder="enter your phone number" name="phone">
-            </div>
-            <div class="inputBox">
-                <span>Project title :</span>
-                <input type="text" placeholder="enter your project title" name="projecttitle">
-            </div>
-            <div class="inputBox">
-                <span>Project Description</span>
-                <input type="text" placeholder="descripe your project" name="descproject">
-            </div>
 
-        </div>
+            <input type="submit" value="submit" class="btn" name="send">
 
-        <input type="submit" value="submit" class="btn" name="send">
+        </form>
 
-    </form>
-
-</section>
+    </section>
 </div>
 
 
