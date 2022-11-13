@@ -27,49 +27,61 @@
     </div>
 </section>
 <section class="mainProjectall">
-<div class="mainproject">
-    <div class="projectname">
+    <div class="mainproject">
+        <div class="projectname">
             <h2>GNTC FONDI HUMANITAR</h2>
-            <p>Ky projekt eshte punuar ne kompanine Gorenje Department <br>
-            store me qellime humanitare. Ku te gjitha te dhenat te <br> personave te cilet
-            ndihmojne jane publike. Ky website eshte punuar me Wordpress </p>
-            <button>Click for more</button>
+            <p>This project was done in the company - Gorenje Department <br>
+                store with humanitarian purposes.<br> Where all the data
+                of the people who help are public. This website is made with WordPress </p>
+            <button > <a href="https://www.gntcfondi.com">Click for more</a></button>
 
 
+        </div>
+        <div class="projectimg">
+            <img src="images/gntcfondi.png" alt="">
+
+        </div>
     </div>
-    <div class="projectimg">
-        <img src="images/gntcfondi.png" alt="">
 
+
+
+
+    <div class="mainproject">
+        <div class="projectname">
+            <h2>COOKIE'S SHOP</h2>
+            <p>
+                This project is a web-based online cookies delivery platfrom <br>
+                To realize this project I used the architecture of Microservices and for <br>
+                front-end i used ReactJS and for back-end i used Laravel.
+
+            </p>
+            <button><a href="https://www.github.com/andakadriu/cookiesFrontEnd">Click for more </a></button>
+
+        </div>
+        <div class="projectimg">
+            <img src="images/cookieshop.png" alt="">
+
+
+        </div>
     </div>
-</div>
-
-<div class="mainproject">
-    <div class="projectname">
-        <h2>COOKIE'S SHOP</h2>
-        <p>Ky projekt eshte bere ne lenden lab2 i cili eshte bere me arkitekturen: Microservices</p>
 
 
-    </div>
-    <div class="projectimg">
-        <img src="images/cookieshop.png" alt="">
+    <div class="mainproject">
+        <div class="projectname">
+            <h2>FITNESS APP</h2>
+            <p>
+                Fitness app is an applicatio where you can create,edit and delete a fitnes,
+                <br>trainers,clients,fitness tools etc. To create this application <br>
+                for front-end i used ReactJS and for back-end i used Asp.net Core.
+            </p>
+            <button><a href="https://www.github.com/andakadriu/FitnessApp">Click for more </a></button>
 
+        </div>
+        <div class="projectimg">
+            <img src="images/fitnesapp.png" alt="">
 
-    </div>
-</div>
-
-
-<div class="mainproject">
-    <div class="projectname">
-        <h2>FITNESS APP</h2>
-        <p>Ky projekt eshte bere per lenden Inxhinieri e Webit MVC dhe ReactJS,............../......</p>
-
-
-    </div>
-    <div class="projectimg">
-        <img src="images/fitnesapp.png" alt="">
-
-    </div>
-</div></section>
+        </div>
+    </div></section>
 
 
 

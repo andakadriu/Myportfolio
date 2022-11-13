@@ -330,6 +330,10 @@ section{
      border-radius: 10px;
      color: var(--buttontx-color);
  }
+
+.projectname button a{
+    color:var(--secondary-color);
+}
  .mainproject .projectname{
 line-height: 1.6em;
 font-size: 16px;}
@@ -419,7 +423,7 @@ color: #FFEDDB;
 
         position: relative;
         margin-left: 35px;
-        
+
     }
 
 
@@ -556,6 +560,3 @@ flex-direction: column;
         --contactall-background:#604b3c;
 
     }
-.main{
-    background-color: var(--primary-color);
-}
