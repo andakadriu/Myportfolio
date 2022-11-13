@@ -421,6 +421,8 @@ color: #FFEDDB;
         margin-left: 35px;
         margin-bottom: 1000px;
     }
+
+
 }
 @media(max-width:1200px){
     section{
@@ -428,6 +430,7 @@ color: #FFEDDB;
     }
 
 }
+
 
 @media(max-width:991px){
     html{
@@ -474,7 +477,11 @@ flex-direction: column;
     position: absolute;
 
 
-}
+} .mainproject{
+
+      position: relative;
+      flex-direction: column;
+  }
 
 
 
@@ -508,16 +515,6 @@ flex-direction: column;
 
 }
 
-
-
-
-
-
-
-
-
-
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 
@@ -525,8 +522,7 @@ flex-direction: column;
     width: 30px;
     cursor:pointer;
 }
-nav{flex: 1;
-text-align: right;}
+
 .all{
     background: var(--primary-resume-background) no-repeat;
     background-size: cover;
@@ -558,8 +554,6 @@ text-align: right;}
         --buttontx-color:white;
         --contactme-background:#9b785e;
         --contactall-background:#604b3c;
-
-
 
     }
 .main{

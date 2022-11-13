@@ -76,19 +76,19 @@
 <section class="footer">
     <div class="box-container">
         <div class="box">
-            <h3>quick links</h3>
-            <a href="home.php"><i class="fas fa-angle-right"></i> Home</a>
-            <a href="about.php"><i class="fas fa-angle-right"></i> About</a>
-            <a href="reserve.php"><i class="fas fa-angle-right"></i> Reserve</a>
-            <a href="home.php"><i class="fas fa-angle-right"></i> </a>
+            <h3>Quick links</h3>
+            <a href="resume.php"><i class="fas fa-angle-right"></i> Resume</a>
+            <a href="projects.php"><i class="fas fa-angle-right"></i> Projects</a>
+            <a href="contact.php"><i class="fas fa-angle-right"></i> Contact</a>
+
         </div>
 
         <div class="box">
-            <h3>extra links</h3>
-            <a href="#"><i class="fas fa-angle-right"></i> ask questions</a>
+            <h3>Extra links</h3>
+            <a href="#"><i class="fas fa-angle-right"></i> Ask questions</a>
             <a href="#"><i class="fas fa-angle-right"></i> About us</a>
             <a href="#"><i class="fas fa-angle-right"></i> Privacy policy</a>
-            <a href="#"><i class="fas fa-angle-right"></i> terms of use</a>
+            <a href="#"><i class="fas fa-angle-right"></i> Terms of use</a>
         </div>
 
         <div class="box">
@@ -105,7 +105,7 @@
             <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
             <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
             <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
-            <a href="#"><i class="fab fa-github"></i>Github</a>
+            <a href="https://github.com/andakadriu"><i class="fab fa-github"></i>Github</a>
         </div>
     </div>
 
