@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>book</title>
+    <title>Contact</title>
 
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -18,23 +18,23 @@
 
 </head>
 <body>
-
 <?php
+//
+//use contactForm;
+//include('contactForm.php');
+//$c=new contactForm();
+//
+//if(isset($_POST['send'])){
+//    $c->setFirstName($_POST['firstname']);
+//    $c->setSurname($_POST['surname']);
+//    $c->setEmail($_POST['email']);
+//    $c->setPhone($_POST['phone']);
+//    $c->setProjectTitle($_POST['projecttitle']);
+//    $c->setDescription($_POST['descproject']);
+//    $c->store();
+//}
+//?>
 
-use contactForm;
-include('contactForm.php');
-$c=new contactForm();
-
-if(isset($_POST['send'])){
-    $c->setFirstName($_POST['firstname']);
-    $c->setSurname($_POST['surname']);
-    $c->setEmail($_POST['email']);
-    $c->setPhone($_POST['phone']);
-    $c->setProjectTitle($_POST['projecttitle']);
-    $c->setDescription($_POST['descproject']);
-    $c->store();
-}
-?>
 
 
 <section class="header">
@@ -46,6 +46,7 @@ if(isset($_POST['send'])){
         <a href="resume.php">Resume</a>
         <a href="projects.php">Projects</a>
         <a href="contact.php">Contact</a>
+        <img src="images/moon.png" id="icon" alt="">
     </nav>
 
     <div id="menu-btn" class="fas fa-bars"></div>
@@ -54,12 +55,11 @@ if(isset($_POST['send'])){
 
 
 
-<div class="heading" style="background:url(images/footerb.png) no-repeat">
-
-</div>
 
 
 
+
+<div class="allcontact">
 <section class="contactme">
 
     <h1 class="heading-title"></h1>
@@ -99,6 +99,7 @@ if(isset($_POST['send'])){
     </form>
 
 </section>
+</div>
 
 
 

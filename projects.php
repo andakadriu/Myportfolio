@@ -11,20 +11,22 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<section class="header" style="background: white !important;">
+<section class="header" style="background: var(--primary-color)">
     <a href="home.php" class="logo">ANDA</a>
 
     <nav class="navbar">
         <a href="resume.php">Resume</a>
         <a href="projects.php">Projects</a>
         <a href="contact.php">Contact</a>
+        <img src="images/moon.png" id="icon" alt="">
+
     </nav>
 
     <div id="menu-btn" class="fas fa-bars">
 
     </div>
 </section>
-<section class="mainProjectall" style="background: #FFEDDB">
+<section class="mainProjectall">
 <div class="mainproject">
     <div class="projectname">
             <h2>GNTC FONDI HUMANITAR</h2>
@@ -50,6 +52,7 @@
     </div>
     <div class="projectimg">
         <img src="images/cookieshop.png" alt="">
+
 
     </div>
 </div>

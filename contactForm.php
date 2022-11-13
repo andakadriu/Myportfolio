@@ -62,7 +62,7 @@ class ContactForm extends Database{
         try{
             $sql="INSERT INTO contact_form(firstname,surname,email,phone,projecttitle,descrproject) VALUES(:firstname,:surname,:email,:phone,:projecttitle,:descrproject)";
             $res=$this->prepare($sql);
-            $res->bindParam(':firstname',$this->firstName);
+            $res->bindParam(':firstname',$this->firstname);
             $res->bindParam(':surname',$this->surname);
             $res->bindParam(':email',$this->email);
             $res->bindParam(':phone',$this->phone);

@@ -306,9 +306,10 @@ section{
 
 /*resume page css*/
 /*project page css*/
+.mainProjectall{
+    background-color: var(--third-color);
+}
 .mainproject{
-
-
     font-size: 10px;
     height: auto;
     width: 100%;
@@ -322,9 +323,12 @@ section{
 
 }
  .projectname button{
-margin-left: 150px;     background-color: #BF9270;
+
+     margin-left: 150px;
+     background-color:var(--button-color) ;
      padding: 8px;
      border-radius: 10px;
+     color: var(--buttontx-color);
  }
  .mainproject .projectname{
 line-height: 1.6em;
@@ -338,12 +342,14 @@ font-size: 16px;}
 
 
 
-
+.allcontact{
+    background-color: var(--contactall-background);
+}
 
 
 .contactme .contact-form{
     padding: 2rem;
-    background: #E3B7A0;
+    background: var(--contactme-background);
 }
 .contactme .contact-form .flex{
     display: flex;
@@ -511,25 +517,7 @@ flex-direction: column;
 
 
 
-.light {
-    --mainColor: #64bcf4;
-    --hoverColor: #5bacdf;
-    --backgroundColor: #f1f8fc;
-    --darkOne: #312f3a;
-    --darkTwo: #45424b;
-    --lightOne: #919191;
-    --lightTwo: #aaa;
-}
 
-.dark {
-    --mainColor: #64bcf4;
-    --hoverColor: #5bacdf;
-    --backgroundColor: #192e3a;
-    --darkOne: #f3f3f3;
-    --darkTwo: #fff;
-    --lightOne: #ccc;
-    --lightTwo: #e7e3e3;
-}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 
@@ -550,8 +538,13 @@ text-align: right;}
     --secondary-color:#212121;
     --primary-background: url("../images/footerb.png");
     --primary-hello-color:black;
-    --primary-resume-background:url("../images/resumeback.png")
-
+    --primary-resume-background:url("../images/resumeback.png");
+    --third-color:#FFEDDB;
+    --button-color:#BF9270;
+    --buttontx-color:black;
+    --gntc-background:url("../images/gntcfondi.png");
+    --contactme-background:#E3B7A0;
+    --contactall-background:white;
 
 }
     .dark-theme{
@@ -559,7 +552,14 @@ text-align: right;}
     --secondary-color:#fff;
         --primary-background: url("../images/footerbdark.png");
         --primary-hello-color:#9b785e;
-        --primary-resume-background:url("../images/resumebackdark.png")
+        --primary-resume-background:url("../images/resumebackdark.png");
+        --third-color:#9b785e;
+        --button-color:black;
+        --buttontx-color:white;
+        --contactme-background:#9b785e;
+        --contactall-background:#604b3c;
+
+
 
     }
 .main{
